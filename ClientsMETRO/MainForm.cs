@@ -532,7 +532,7 @@ namespace ClientsMETRO
         /// <param name="e"></param>
         private void MainForm_Load(object sender, EventArgs e)
         {
-            this.Text = "База клиентов       v2.0.0.2      " + shopString + "       ©D.Noskov 2016-" + DateTime.Now.Year.ToString();
+            this.Text = "База клиентов       v2.0.0.2             ©D.Noskov 2016-" + DateTime.Now.Year.ToString();
             EnablingSendButton();
             DisablingLoadButton();
             timer1.Start();

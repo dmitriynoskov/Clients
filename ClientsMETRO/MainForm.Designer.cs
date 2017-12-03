@@ -467,7 +467,7 @@
             // 
             this.lblStatus.BorderStyle = System.Windows.Forms.Border3DStyle.Raised;
             this.lblStatus.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.lblStatus.ForeColor = System.Drawing.Color.Lime;
+            this.lblStatus.ForeColor = System.Drawing.Color.Black;
             this.lblStatus.Name = "lblStatus";
             this.lblStatus.Size = new System.Drawing.Size(149, 20);
             this.lblStatus.Text = "Работа программы";
@@ -482,7 +482,7 @@
             // lblStatusRuning
             // 
             this.lblStatusRuning.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.lblStatusRuning.ForeColor = System.Drawing.Color.Lime;
+            this.lblStatusRuning.ForeColor = System.Drawing.Color.Black;
             this.lblStatusRuning.Name = "lblStatusRuning";
             this.lblStatusRuning.Size = new System.Drawing.Size(123, 20);
             this.lblStatusRuning.Text = "Выполняется...";
@@ -490,7 +490,7 @@
             // tstrlblClientsNumber
             // 
             this.tstrlblClientsNumber.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.tstrlblClientsNumber.ForeColor = System.Drawing.Color.Lime;
+            this.tstrlblClientsNumber.ForeColor = System.Drawing.Color.Black;
             this.tstrlblClientsNumber.Name = "tstrlblClientsNumber";
             this.tstrlblClientsNumber.Size = new System.Drawing.Size(307, 20);
             this.tstrlblClientsNumber.Text = "В базе зарегистрировано 8500 человек";
@@ -498,7 +498,7 @@
             // tstrlblClientsForDate
             // 
             this.tstrlblClientsForDate.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.tstrlblClientsForDate.ForeColor = System.Drawing.Color.Lime;
+            this.tstrlblClientsForDate.ForeColor = System.Drawing.Color.Black;
             this.tstrlblClientsForDate.Name = "tstrlblClientsForDate";
             this.tstrlblClientsForDate.Size = new System.Drawing.Size(200, 20);
             this.tstrlblClientsForDate.Text = "Заполнение клиентов за ";
@@ -506,7 +506,7 @@
             // tstrlblNewClients
             // 
             this.tstrlblNewClients.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.tstrlblNewClients.ForeColor = System.Drawing.Color.Lime;
+            this.tstrlblNewClients.ForeColor = System.Drawing.Color.Black;
             this.tstrlblNewClients.Name = "tstrlblNewClients";
             this.tstrlblNewClients.Size = new System.Drawing.Size(128, 20);
             this.tstrlblNewClients.Text = "Новых клиентов";
@@ -515,7 +515,7 @@
             // 
             this.tstrlblExistingClients.AutoSize = false;
             this.tstrlblExistingClients.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.tstrlblExistingClients.ForeColor = System.Drawing.Color.Lime;
+            this.tstrlblExistingClients.ForeColor = System.Drawing.Color.Black;
             this.tstrlblExistingClients.Name = "tstrlblExistingClients";
             this.tstrlblExistingClients.Size = new System.Drawing.Size(197, 20);
             this.tstrlblExistingClients.Text = "Существующих клиентов:";
@@ -996,13 +996,13 @@
             this.cnmstrUpdateClient.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.изменитьДанныеКлиентаToolStripMenuItem});
             this.cnmstrUpdateClient.Name = "cnmstrUpdateClient";
-            this.cnmstrUpdateClient.Size = new System.Drawing.Size(270, 30);
+            this.cnmstrUpdateClient.Size = new System.Drawing.Size(268, 30);
             // 
             // изменитьДанныеКлиентаToolStripMenuItem
             // 
             this.изменитьДанныеКлиентаToolStripMenuItem.Image = global::ClientsMETRO.Properties.Resources.screen9_item_img_6;
             this.изменитьДанныеКлиентаToolStripMenuItem.Name = "изменитьДанныеКлиентаToolStripMenuItem";
-            this.изменитьДанныеКлиентаToolStripMenuItem.Size = new System.Drawing.Size(269, 26);
+            this.изменитьДанныеКлиентаToolStripMenuItem.Size = new System.Drawing.Size(267, 26);
             this.изменитьДанныеКлиентаToolStripMenuItem.Text = "Изменить данные клиента";
             this.изменитьДанныеКлиентаToolStripMenuItem.Click += new System.EventHandler(this.изменитьДанныеКлиентаToolStripMenuItem_Click);
             // 
